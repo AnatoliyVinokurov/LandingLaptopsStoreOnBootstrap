@@ -114,7 +114,7 @@ a:hover {
 
 .product-details p {
     font-size: 15px;
-    margin-bottom: 20pxpx;
+    margin-bottom: 20px;
     color: #999;
     height: 70px;
     overflow: hidden;
@@ -145,3 +145,38 @@ a:hover {
 }
 
 /*--Product card--*/
+
+/*Footer*/
+.footer {
+    background-color: #343434;
+}
+
+.footer h4 {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 3px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a,
+.footer li {
+    color: #c8c8c8;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/*--Footer--*/
